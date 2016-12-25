@@ -1,0 +1,8 @@
+language: java
+jdk:
+  - oraclejdk8
+deploy:
+  provider: heroku
+  api_key:
+     secure: 58f252c4-797d-4f08-9947-fe594d4b80f9
+  app: f1-database
